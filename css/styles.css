@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 7%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #1B98E0;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 5% 7% 15%;
+    text-align: left;
+}
+
+#title {
+    background-image: url("/images/solar-panel.jpg");
+    background-size: auto;
+    height: 100%;
+}
+
+/* Title Image */
+
+.title-img {
+    position: absolute;
+    right: 25%;
+    transform: rotate(25deg);
+    width: 25%;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+    margin: 5% 0;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 1%;
+}
+
+.icon {
+    color: #1B98E0;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #1679b2;
+}
+
+
+/* Footer Section */
+
+.footer-text {
+    margin: 1% auto;
+    text-align: left;
+}
+
+.copyright {
+    margin-top: 3rem;
+    color: white;
+}
+
+.company-data {
+    color: white;
+}
+
+/* Media Query */
+
+@media (max-width: 1200px) {
+    #title {
+        text-align: center;
+    }
+}
